@@ -32,9 +32,9 @@ return (
         textColor="primary"
         centered
     >
-        <Tab label="Item One" component={Link} to="/one"/>
-        <Tab label="Item Two" component={Link} to="/two" />
-        <Tab label="Item Three" component={Link} to="/three"/>
+        <Tab label="Track Order" component={Link} to="/one"/>
+        <Tab label="Media Files" component={Link} to="/two" />
+        <Tab label="Subscriptions" component={Link} to="/three"/>
         
     </Tabs>
     <Switch>

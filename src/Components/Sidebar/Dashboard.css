@@ -1,0 +1,24 @@
+.Toolbar {
+    background-color: seagreen;
+    
+}
+.search-bar{
+    float: right;
+position: relative;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+background-color: transparent;
+border-radius: 8px;
+width: 30%;
+height: 50px;
+}
+
+.search-icon {
+
+
+}
+
+.input-search{
+    background-color: seagreen;
+}
