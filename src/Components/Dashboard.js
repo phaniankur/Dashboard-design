@@ -19,6 +19,7 @@ import InboxIcon from '@material-ui/icons/MoveToInbox';
 import MailIcon from '@material-ui/icons/Mail';
 
 import Tabs from './Tabs'
+import CenteredTabs from './CenterTabPanel';
 
 const drawerWidth = 240;
 
@@ -163,10 +164,10 @@ export default function MiniDrawer() {
       <main className={classes.content}>
         <div className={classes.toolbar} />
         <Typography paragraph>
-          <Tabs />
+          
         </Typography>
         <Typography paragraph>
-          
+          <CenteredTabs/>
         </Typography>
       </main>
     </div>
